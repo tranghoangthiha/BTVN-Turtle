@@ -1,0 +1,9 @@
+import turtle
+s = turtle.Turtle()
+s.pencolor('red')
+s.pensize(5)
+s.fillcolor('blue')
+s.begin_fill()
+s.circle(100)
+s.end_fill()
+turtle.done()
